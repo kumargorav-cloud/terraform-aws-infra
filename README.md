@@ -75,7 +75,8 @@ terraform-aws-infra
 │       ├── variables.tf
 │       └── terraform.tfvars
 │
-├── backend.tf
+├── backend
+      |-- backend.tf
 ├── provider.tf
 └── .github/workflows/terraform.yml
 ```
