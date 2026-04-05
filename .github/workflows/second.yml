@@ -1,0 +1,12 @@
+name: Second CI
+
+on:
+    push
+jobs:
+    build:
+        runs-on: ubuntu-Latest
+
+        steps:
+          - name: Say Hello
+            run: "Hello from the second workflow"
+            
